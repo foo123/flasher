@@ -4,7 +4,11 @@ flasher
 __ActionScript 3 XML slideshow__ based on [as3-transitions-lib](https://github.com/foo123/as3-transitions-lib) (FP 9, 10 ,11)
 
 
-![flasher xml slideshow](/screenshot.png)
+[![flasher xml slideshow](/screenshot.png)](http://foo123.github.com/examples/flasher-xml-slideshow/)
+
+
+###Live Example
+* http://foo123.github.com/examples/flasher-xml-slideshow/
 
 
 This project along with [as3-transitions-lib](https://github.com/foo123/as3-transitions-lib) were initiated some years back,
