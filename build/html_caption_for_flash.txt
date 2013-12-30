@@ -1,0 +1,51 @@
+Anchor tag 	The <a> tag creates a hypertext link and supports the following attributes:
+
+    target: Specifies the name of the target window where you load the page. Options include _self, _blank, _parent, and _top. The _self option specifies the current frame in the current window, _blank specifies a new window, _parent specifies the parent of the current frame, and _top specifies the top-level frame in the current window.
+    href: Specifies a URL or an ActionScript link event. The URL can be either absolute or relative to the location of the SWF file that is loading the page. An example of an absolute reference to a URL is http://www.adobe.com; an example of a relative reference is /index.html. Absolute URLs must be prefixed with http://; otherwise, Flash treats them as relative URLs. You can use the link event to cause the link to execute an ActionScript function in a SWF file instead of opening a URL. To specify a link event, use the event scheme instead of the http scheme in your href attribute. An example is href="event:myText" instead of href="http://myURL"; when the user clicks a hypertext link that contains the event scheme, the text field dispatches a link TextEvent with its text property set to "myText". You can then create an ActionScript function that executes whenever the link TextEvent is dispatched. You can also define a:link, a:hover, and a:active styles for anchor tags by using style sheets. 
+
+Bold tag 	The <b> tag renders text as bold. A bold typeface must be available for the font used.
+Break tag 	The <br> tag creates a line break in the text field. Set the text field to be a multiline text field to use this tag.
+Font tag 	The <font> tag specifies a font or list of fonts to display the text.The font tag supports the following attributes:
+
+    color: Only hexadecimal color (#FFFFFF) values are supported.
+    face: Specifies the name of the font to use. As shown in the following example, you can specify a list of comma-delimited font names, in which case Flash Player selects the first available font. If the specified font is not installed on the local computer system or isn't embedded in the SWF file, Flash Player selects a substitute font.
+    size: Specifies the size of the font. You can use absolute pixel sizes, such as 16 or 18, or relative point sizes, such as +2 or -4. 
+
+Image tag 	The <img> tag lets you embed external image files (JPEG, GIF, PNG), SWF files, and movie clips inside text fields. Text automatically flows around images you embed in text fields. You must set the text field to be multiline to wrap text around an image.
+
+The <img> tag supports the following attributes:
+
+    src: Specifies the URL to an image or SWF file, or the linkage identifier for a movie clip symbol in the library. This attribute is required; all other attributes are optional. External files (JPEG, GIF, PNG, and SWF files) do not show until they are downloaded completely.
+    width: The width of the image, SWF file, or movie clip being inserted, in pixels.
+    height: The height of the image, SWF file, or movie clip being inserted, in pixels.
+    align: Specifies the horizontal alignment of the embedded image within the text field. Valid values are left and right. The default value is left.
+    hspace: Specifies the amount of horizontal space that surrounds the image where no text appears. The default value is 8.
+    vspace: Specifies the amount of vertical space that surrounds the image where no text appears. The default value is 8.
+    id: Specifies the name for the movie clip instance (created by Flash Player) that contains the embedded image file, SWF file, or movie clip. This approach is used to control the embedded content with ActionScript.
+    checkPolicyFile: Specifies that Flash Player checks for a URL policy file on the server associated with the image domain. If a policy file exists, SWF files in the domains listed in the file can access the data of the loaded image, for example, by calling the BitmapData.draw() method with this image as the source parameter. For more information, see the "Flash Player Security" chapter in Programming ActionScript 3.0. 
+
+Flash displays media embedded in a text field at full size. To specify the dimensions of the media you are embedding, use the <img> tag height and width attributes.
+
+In general, an image embedded in a text field appears on the line following the <img> tag. However, when the <img> tag is the first character in the text field, the image appears on the first line of the text field.
+Italic tag 	The <i> tag displays the tagged text in italics. An italic typeface must be available for the font used.
+List item tag 	The <li> tag places a bullet in front of the text that it encloses. Note: Because Flash Player does not recognize ordered and unordered list tags (<ol> and <ul>, they do not modify how your list is rendered. All lists are unordered and all list items use bullets.
+Paragraph tag 	The <p> tag creates a new paragraph. The text field must be set to be a multiline text field to use this tag. The <p> tag supports the following attributes:
+
+    align: Specifies alignment of text within the paragraph; valid values are left, right, justify, and center.
+    class: Specifies a CSS style class defined by a flash.text.StyleSheet object. 
+
+Span tag 	The <span> tag is available only for use with CSS text styles. It supports the following attribute:
+
+    class: Specifies a CSS style class defined by a flash.text.StyleSheet object. 
+
+Underline tag 	The <u> tag underlines the tagged text.
+
+Flash Player supports the following HTML entities:
+Entity 	Description
+< 	< (less than)
+> 	> (greater than)
+& 	& (ampersand)
+" 	" (double quotes)
+' 	' (apostrophe, single quote)
+
+Flash also supports explicit character codes, such as &#38; (ASCII ampersand) and &#x20AC; (Unicode € symbol). 

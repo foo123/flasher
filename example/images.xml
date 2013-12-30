@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+    <randomOrder>false</randomOrder>
+    <globalDelay>5</globalDelay>
+    <showThumbnails>true</showThumbnails>
+    <showControls>true</showControls>
+    <image src="d7.jpg">
+        <fx transition="Dissolve" delay="2" duration="2" />
+        <caption>Dissolve Transition</caption>
+        <url>http://foo.gr</url>
+    </image>
+    <image src="d4.jpg">
+        <fx transition="FlipPage3D" easing="Regular.easeOut" duration="2" mode="bend"/>
+        <caption>FlipPage3D Bend Transition</caption>
+    </image>
+    <image src="d2.jpg">
+        <fx transition="FlipPage3D" easing="Regular.easeOut" duration="2" mode="twist"/>
+        <caption>FlipPage3D Twist Transition</caption>
+    </image>
+    <image src="d7.jpg">
+        <fx transition="Shuffle" easing="Regular.easeOut" duration="2" mode="right"/>
+        <caption>Shuffle Transition</caption>
+    </image>
+    <image src="d3.jpg">
+        <fx transition="Fold" easing="Regular.easeOut" duration="2" />
+        <caption>Fold Transition</caption>
+    </image>
+    <image src="d2.jpg">
+        <fx transition="FlipTiles" easing="Bounce.easeOut" duration="2" rows="5" columns="5" spin="vertical" ordering="diagonal-bottom-right" overlap="0.9" />
+        <caption><![CDATA[<p><font face="Arial" size="22" color="#ff0000">FlipTiles Transition HTML caption with <font color="#0000ff"><a href="foo.html">link</a></font></font></p>]]></caption>
+        <url>http://foo3.gr</url>
+    </image>
+    <image src="d4.jpg">
+        <fx transition="random" delay="4" />
+        <caption>This transition is random</caption>
+    </image>
+    <image src="d2.jpg">
+        <caption>This transition is also random by default</caption>
+    </image>
+    <image src="d3.jpg">
+        <fx transition="FlipPage" easing="Strong.easeOut" delay="4" duration="2" mode="horizontal-top-left" />
+        <caption>FlipPage Transition</caption>
+    </image>
+    <image src="d4.jpg">
+        <fx transition="Slices" easing="Back.easeOut" delay="4" duration="2" type="in" overlap="0.9" alternate="true" area="200" angle="45" ordering="random" />
+        <caption>Slices Transition</caption>
+    </image>
+    <image src="d8.jpg">
+        <fx transition="Fly" easing="Back.easeOut" delay="2" duration="3" mode="bottom-right" />
+        <caption>Fly Transition</caption>
+    </image>
+    <image src="d9.jpg">
+        <fx transition="DreamWave" easing="None.easeInOut" delay="3" duration="3" speedx="20" speedy="20" maxx="80" maxy="60" />
+        <caption>DreamWave Transition</caption>
+    </image>
+    <image src="d7.jpg">
+        <fx transition="Ripples" easing="None.easeInOut" delay="3" duration="3" maxs="60" dens="3" />
+        <caption>Ripples Transition</caption>
+    </image>
+    <image src="d2.jpg">
+        <fx transition="ScaleTiles" easing="Strong.easeOut" delay="5" duration="2" rows="5" columns="5" rotate="true" reverse="true" ordering="columns-first" overlap="1" />
+        <caption>ScaleTiles Transition</caption>
+    </image>
+    <image src="d3.jpg">
+        <fx transition="Pixelate" easing="None.easeInOut" delay="5" duration="2" geometric="true" />
+        <caption>Pixelate Transition</caption>
+    </image>
+    <image src="d4.jpg">
+        <fx transition="Cubes" easing="Strong.easeOut" delay="5" duration="3" slices="3" slicing="horizontal" overlap="0.8" direction="left" ordering="rows-first"/>
+        <caption>Cubes Transition</caption>
+    </image>
+    <image src="d8.jpg">
+        <fx transition="Clock" easing="Strong.easeOut" delay="5" duration="3" segments="6" clockwise="true" start_angle="0" />
+        <caption>Clock Transition</caption>
+    </image>
+    <image src="d3.jpg">
+        <fx transition="GradientMasks" easing="Back.easeOut" delay="5" duration="3" slices="4" mode="vertical" alternate="true" overlap="0.8" ordering="random" />
+        <caption>GradientMasks Transition</caption>
+    </image>
+    <image src="d2.jpg">
+        <fx transition="GradientSweep" easing="Strong.easeOut" delay="5" duration="3" mode="radial" />
+        <caption>GradientSweep Transition</caption>
+    </image>
+    <image src="d4.jpg">
+        <fx transition="JigsawPuzzle" easing="Regular.easeOut" delay="5" duration="2" mode="random-move" ordering="checkerboard" overlap="0.5" />
+        <caption>JigsawPuzzle Transition</caption>
+    </image>
+    <image src="d3.jpg">
+        <fx transition="Blinds" easing="Strong.easeOut" delay="5" duration="2" mode="left" rows="1" columns="8" ordering="rows" overlap="0.95" />
+        <caption>Blinds Transition</caption>
+    </image>
+    <image src="d9.jpg">
+        <fx transition="FadeTiles" easing="None.easeInOut" duration="2" delay="5" ordering="random" columns="6" rows="6" overlap="0.95" />
+        <caption>FadeTiles Transition</caption>
+    </image>
+</images>
