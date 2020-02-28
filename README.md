@@ -7,7 +7,7 @@ __ActionScript 3 XML slideshow__ based on [as3-transitions-lib](https://github.c
 [![flasher xml slideshow](/screenshot.png)](http://foo123.github.com/examples/flasher-xml-slideshow/)
 
 
-###Live Example
+### Live Example
 * http://foo123.github.com/examples/flasher-xml-slideshow/
 
 
@@ -18,6 +18,5 @@ This project and (as3-transitions-lib) are still in progress (fully working neve
 
 In any case the code is published in this repo and [as3-transitions-lib](https://github.com/foo123/as3-transitions-lib).
 
-
-
+**Note** for **JavaScript/CSS** and/or **jQuery** slideshow libraries with **similar effects** check out [NoFlash](https://github.com/foo123/jquery-plugins) and [Imagik](https://github.com/foo123/Imagik)
 
